@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #080808;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+    color: #2bb2b2;
+}
+input{
+    padding: 8px 4px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 2px solid #2bb2b2;
+    background-color: #080808;
+    color: #2bb2b2;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #2bb2b2;
+    opacity: 0.75;
+}
+.container{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+}
